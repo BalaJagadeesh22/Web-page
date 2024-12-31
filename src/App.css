@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url('https://t3.ftcdn.net/jpg/07/65/24/96/360_F_765249628_kPrlGCEtCdP58aeyEmq2gWdlsFXLiut7.jpg'); /* Add background image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-position: center; /* Center the image */
+  width: 100vw; /* Ensure the content fits the full width */
+  height: 100vh; /* Ensure the content fits the full height */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(244, 244, 244, 0.5); /* Make background more transparent */
+  border-bottom: 1px solid #ccc;
+  border-radius: 10px; /* Make border curvy */
+}
+
+.refresh-button {
+  background-color: #ff0000; /* Change to desired color */
+  color: #ffffff; /* Change text color if needed */
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: rgb(55, 0, 255);
+  font-size: 20px;
+  padding: 10px 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav a:hover {
+  background-color: rgb(55, 0, 255);
+  color: white;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white; /* Ensure text is visible against the background */
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(244, 244, 244, 0.5); /* Make background more transparent */
+  border-top: 1px solid #ccc;
+  margin-top: auto; /* Push footer to the bottom */
+}
